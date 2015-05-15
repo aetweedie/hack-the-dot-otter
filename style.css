@@ -1,0 +1,61 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: futura;
+}
+.header {
+  display: inline;
+  background: red;
+  color: white;
+  height: 100px;
+  float: left;
+  width: 100%;
+  margin-top: 0px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-size: 50px;
+  float: left;
+}
+
+h2 {
+  font-size: 25px;
+  float: left;
+}
+
+button {
+  height: 50px;
+  width: 100px;
+  background-color: white;
+  float: left;
+  border-radius: 10px;
+  margin-top: 25px;
+  margin-left: 50px;
+  font-family: futura;
+  border: 10px;
+  border-color: blue;
+}
+
+nav {
+  display: inline;
+  width: 120px;
+  text-transform: uppercase;
+  color: white;
+  background-color: white;
+  text-align: center;
+	border-radius: 5px;
+	padding: 6px;
+  float: right;
+}
+
+footer {
+  float: left;
+  color: white;
+  background-color: red;
+  width: 100%;
+}
